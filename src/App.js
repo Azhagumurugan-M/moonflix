@@ -14,12 +14,12 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/signup" element={<Signup />} />
-        <Route exact path="/login" element={<Login />} />
-        <Route exact path="/player" element={<Player />} />
-        <Route exact path="/tv" element={<TVShows />} />
-        <Route exact path="/movies" element={<MoviePage />} />
-        <Route exact path="/new" element={<Player />} />
-        <Route exact path="/mylist" element={<UserListedMovies />} />
+        <Route  path="/login" element={<Login />} />
+        <Route  path="/player" element={<Player />} />
+        <Route  path="/tv" element={<TVShows />} />
+        <Route  path="/movies" element={<MoviePage />} />
+        <Route  path="/new" element={<Player />} />
+        <Route  path="/mylist" element={<UserListedMovies />} />
         <Route exact path="/" element={<Netflix />} />
       </Routes>
     </BrowserRouter>
